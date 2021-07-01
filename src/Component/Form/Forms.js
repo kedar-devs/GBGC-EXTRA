@@ -3,7 +3,7 @@ import axios from 'axios'
 import QRCode from 'qrcode.react'
 import styles from './form.css'
 import {Container, Form,Button} from 'react-bootstrap'
-function form() {
+function Forms() {
     const [file, setFile] = useState()
     const [qrlink, setLink] = useState('')
     const onSubmit = (e) => {
@@ -42,6 +42,7 @@ function form() {
             </Container>
         </div>
     )
+    
 }
 
-export default form
+export default Forms
