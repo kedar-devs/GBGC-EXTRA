@@ -12,7 +12,7 @@ function form() {
         console.log(file)
         formData.append('file',file)
         console.log('in here')
-        axios.post('http://localhost:8080/file/side/add', formData)
+        axios.post('https://gbgcapp.herokuapp.com/file/side/add', formData)
             .then(result => {
                 console.log(result.data)
                 setLink(result.data.link)

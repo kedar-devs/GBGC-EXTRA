@@ -5,7 +5,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 function Display() {
     const [data, setDate] = useState([])
     useEffect(() => {
-        axios.get('http://localhost:8080/file/side/get')
+        axios.get('https://gbgcapp.herokuapp.com/file/side/get')
             .then(result => {
                 console.log(result.data)
                 setDate(result.data)
