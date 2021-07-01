@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import QRCode from 'qrcode.react'
 import styles from './form.css'
-import {Container, Form,Button} from 'react-bootstrap'
+import {Container, Form} from 'react-bootstrap'
 function Forms() {
     const [file, setFile] = useState()
     const [qrlink, setLink] = useState('')
