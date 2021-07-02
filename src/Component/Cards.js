@@ -12,7 +12,7 @@ function Cards(props) {
     return (
         <div className='border-4'>
                 {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                {props.data.type==='image'?<img src={props.data.thumbnail} />:<Document
+                {props.data.type==='image'?<img src={props.data.thumbnail} alt='sorry server error'/>:<Document
                 file={props.data.link}
                 onLoadSuccess={onDocumentLoad}>
                     <Page pageNumber={pageNumber} />

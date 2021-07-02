@@ -10,7 +10,6 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "convert-pdf-png": "0.0.1",
-    "pdf-viewer-reactjs": "^2.2.3",
     "qrcode.react": "^1.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
