@@ -3,6 +3,7 @@ import axios from 'axios'
 import QRCode from 'qrcode.react'
 import styles from './form.css'
 import {Container, Form} from 'react-bootstrap'
+// import { convertPdfToPng } from 'convert-pdf-png';
 function Forms() {
     const [file, setFile] = useState()
     const [qrlink, setLink] = useState('')
