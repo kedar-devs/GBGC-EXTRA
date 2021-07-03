@@ -16,7 +16,6 @@ function Display() {
     }, [])
     const CardDisplay = () => {
         return data.map(qrdata => {
-            console.log('in here',qrdata)
             return <Cards data={qrdata} key={qrdata._id} />
         })
     }
@@ -24,7 +23,7 @@ function Display() {
         <div>
             <Container fluid>
                 <Row>
-                    <Col xs={1} md={3} lg={4}>
+                    <Col >
                         {CardDisplay()}
                     </Col>
                 </Row>
